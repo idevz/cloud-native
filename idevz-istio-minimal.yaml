@@ -774,7 +774,7 @@ metadata:
     app: istio-ingressgateway
     istio: ingressgateway
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     release: istio
     app: istio-ingressgateway
